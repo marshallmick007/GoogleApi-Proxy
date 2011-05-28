@@ -24,22 +24,22 @@ should you use this technique.
 
 1. Create a directory somewhere on your computer
 
-    mkdir ~/path/to/my/directory/googleapis
+        mkdir ~/path/to/my/directory/googleapis
 
 2. Pull the source
 
-    git ...
+        git clone git@github.com:marshallmick007/GoogleApi-Proxy.git
 
 3. Run the bash script to pull down the supported scripts
 
-    bash ./getapis.sh
+        bash ./getapis.sh
 
 4. Link the directory to Pow
 
-    cd ~/.pow
-    ln -s ~/path/to/my/directory/googleapis googleapis
+        cd ~/.pow
+        ln -s ~/path/to/my/directory/googleapis googleapis
 
- Google Api's are now available at http://googleapis.dev
+    Google Api's are now available at http://googleapis.dev
 
 5. Configure GlimmerBlocker. Import the included filter, subscribe to
    the one hosted here: http://mickelson.org/files/filter.xml, or
