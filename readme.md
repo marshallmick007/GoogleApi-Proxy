@@ -2,11 +2,9 @@
 
 ## What the heck is this?
 
-Don't want google knowing every website you visit? Common javascripts
-are often loaded from a content delivery network (CDN) at google,
-meaning google can mine which websites you visit just by hosting and
-checking access logs. If you dont want this, you can redirect the
-ajax.googleapis.com to your localhost.
+Don't trust google? Common javascripts are often loaded from a content 
+delivery network (CDN) at google, meaning google knows when you request a file.
+If you dont want this, you can redirect the ajax.googleapis.com to your localhost.
 
 Doing this may break website you visit, so use at your own risk! I am
 not responsible for any broken websites or transactions that may occur
