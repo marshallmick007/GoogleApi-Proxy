@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-data name="googleapi redirection" description="Redirects ajax.googleapis.com requests to a local web server" format-version="3" gb-version="1.4.2">
+    <rule priority="2" type="request" host="ajax.googleapis.com" host-type="is">
+        <comments><![CDATA[Redirects googleapis to a localhost server]]></comments>
+        <request language="js" version="1"><![CDATA[r = gb.request.url;
+redir = r.replace("ajax.googleapis.com", "googleapis.dev");
+
+gb.log("** Redirecting googleapis request %s -> %s", r, redir );
+
+gb.request.url = redir;]]></request>
+    </rule>
+</filter-data>
