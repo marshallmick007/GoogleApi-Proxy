@@ -57,6 +57,7 @@ as if it has come from the real ajax.googleapis.com
 
 ## TODO
 
+0. Fix my crappy bash scripting
 1. Figure out how to get HTTPS to work
 2. Complete implementation of all googleapis
 
